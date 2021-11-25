@@ -1,0 +1,271 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head
+{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+}
+.headmain
+{
+  display: flex;
+  flex-direction: row;
+  
+}
+.head2,.head3,.head4,.head5,.head6,.head7,.head8,.head9,.head10
+{
+    width: 150px;
+    height: 80px;
+    text-align:justify;
+    margin-left: 5px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+.head1{
+    flex:.9;
+    text-align: end;
+    margin-right: 20px;
+}
+.logo
+{
+    width: 93px;
+    padding-top: 20px;
+    padding-right: 0px;
+}
+.sel1
+{
+    padding-left: 0;
+    text-align: start;
+
+}
+.sel2,.sel3,.sel5,.sel6
+{
+    height: 40px;
+    color: #fff;
+    background-color: black;
+    margin-top: 0px;
+    font-weight: 800;
+    border:black;
+    font-size: 13px;
+}
+.head2,.head5,.head6,.head8
+{
+    width:100px;
+}
+.head4,.head7,.head8,.head9,.head10
+{
+    color: #fff;
+    font-weight: 800;
+    padding-top: 33px;
+    font-size: 11px;
+}
+.head10
+{
+    width: 280px;
+    text-align:end;
+}
+.head8{
+    margin-right: 100px;
+}
+.head4{
+    width:110px;
+}
+.head7{
+    width:150px;
+}
+.container
+{
+    width: 100%;
+    height: 500px;
+}
+.backimg
+{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+.inpic
+{
+    position: relative;
+    margin-left: 70px;
+    top: 40px;
+    width: 520px;
+    height:350px;
+    background-color:rgba(0, 0, 0, 0.466);
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    line-height: 30px;
+    font-family: roboto;
+    
+}
+.inpic h2
+{
+    font-size: 27px;
+    font-weight: 800;
+}
+.inpic h5
+{
+    font-size: 13px;
+    font-weight: 200;
+}
+.btnylw1,.btnylw2
+{
+   color: revert;
+   height: 43px;
+   cursor: pointer;
+   letter-spacing: .05rem;
+   background-color: #fcba15;
+   font-weight: 1000;
+   font-size: 15px;
+   border: none;
+   text-align: center;
+}
+.btnylw1
+{
+    margin-right:50px ;
+    margin-right:20px ;
+    
+}
+.container1
+{
+    width: 100%;
+    height: 1100px;
+    background-color: black;
+}
+.box2
+{
+    width: 70px;
+    height: 260px;
+    margin-left: 1540px;
+    top: 150px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+   
+}
+.box3,.box4,.box5,.box6,.box7
+{
+   width: 50px;
+   height: 40px;
+   margin-bottom: 8px;
+   background-color: #fcba15;
+   align-items: center;
+}
+.bximg1,.bximg2,.bximg3,.bximg4,.bximg5
+{
+    width: 30px;
+    height: 35px;
+    padding-left: 15px;
+    
+}
+.container3
+{
+    width: 90%;
+    height: 500px;
+    background-color: white;
+    margin-left: 5%;
+}
+.container3 h2
+{
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: .5px;
+}
+.container3box
+{
+   display: flex;
+   justify-content: center;
+}
+.container3-box1,.container3-box2
+{
+    width: 45%;
+    height: 400px;
+    border: 1px solid white;
+    text-align: center;
+}
+.container3-img1,.container3-img2
+{
+    width:700px;
+    height:380px ;
+    padding-top: 10px;   
+}
+.container3-img1 h5,.container3-img2 h5
+{
+    text-decoration: none;
+    font-weight: lighter;
+}
+.container4
+{
+    width:60%;
+    height: 280px;
+    margin-left: 290px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.container4 h4
+{
+    font-weight:none;
+    line-height: 5px;
+}
+.container5
+{
+    width: 100%;
+    height: 150px;
+}
+.logoimg
+{
+    margin-left: 40px;
+    height: 150px;
+}
+.container6
+{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+}
+.imglogo
+{
+    margin-top:10px ;
+    width: 1500px;
+}
+.container7
+{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.container72,.container73,.container74
+{
+    width: 470px;
+    height: 430px;
+    background-color: white;
+    border: rgb(219, 217, 217) 12px solid;
+    text-align: end;
+    font-style: normal;
+}
+.imgls1
+{
+    width: 445px;
+    height: 370px;
+}
+.last
+{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+.lastimg
+{
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+}
